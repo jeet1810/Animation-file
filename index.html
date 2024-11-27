@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .bg-img{
+            height: 70vh;
+            width: 50vw;
+            animation-name: bgimage;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        @keyframes bgimage{
+            0%{
+                
+                background-image: url(shivji.jpg);
+            }
+            25%{
+                background-image: url(jai\ mata\ di.png);
+            }
+            50%{
+                background-image: url(radha\ krishan.jpg);
+            }
+            75%{
+                background-image: url(hanuman\ ji.jpg);
+            }
+            100%{
+                background-image: url( khatusyamji.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 70vh; width: 50vw; display: flex;">
+        <div class="bg-img" style="margin-left: auto; margin-right: auto; margin-top: 100px; border: 2px solid red; width: 50vw; height: 70vh;" >        
+        </div>
+    </div>
+</body>
+</html>
